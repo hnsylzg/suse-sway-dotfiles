@@ -31,7 +31,7 @@ let g:rnvimr_ex_enable = 1
 nnoremap <silent> <M-o> : RnvimrToggle <CR>
 
 "Alt+加号 切换至下一个标签，减号则是切换回上一个
-nnoremap <M-+> : bp <CR>
+nnoremap <M-=> : bp <CR>
 nnoremap <M--> : bn <CR>
 
 "配置 vim-snazzy 主题插件
